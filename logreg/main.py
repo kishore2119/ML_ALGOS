@@ -51,7 +51,8 @@ testing_accuracy = accuracy_score(y_test, y_pred_test)
 
 print(f"Training Accuracy: {training_accuracy}")
 print(f"Testing Accuracy: {testing_accuracy}")
-
+print(f"FInal Theta : {good_theta[1:]}")
+print(f"Intercept : {good_theta[0]}")
 
 # Decision Boundary Visualization
 
